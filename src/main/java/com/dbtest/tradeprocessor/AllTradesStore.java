@@ -46,8 +46,4 @@ public final class AllTradesStore {
         tradeDetails.add(toBeAdded);
     }
 
-    public static void refreshTradeStore(List<TradeDetails> refreshedTrades) {
-        tradeDetails = refreshedTrades;
-    }
-
  }

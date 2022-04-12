@@ -31,8 +31,5 @@ public class MaturityCheckScheduler {
             }
             return s;
         }).collect(Collectors.toList());
-
-        AllTradesStore.refreshTradeStore(refreshedStore);
-
     }
 }
