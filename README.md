@@ -20,3 +20,5 @@ This solution comprised of 2 parts:
      *  1.2 if with same version, override the current trade details
      *  1.4 if with greater version, save the new trade details
      * 2. If trade does not exists, save the trade in trade store
+     
+The consumption of messages were undefined, so REST/MQ fits this solution or the same solution can be used as a library as it is written. 
